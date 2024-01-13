@@ -2,6 +2,7 @@
 package logica;
 
 import java.util.ArrayList;
+import java.util.List;
 import persistencia.ControladorPersistencia;
 
 public class Controlador {
@@ -80,6 +81,22 @@ public class Controlador {
         controlPersist.guardar(dueno, mascota);
         
         
+    }
+
+    public ArrayList <Mascota> traerMascotas() {
+        return controlPersist.traerMascotas();
+    }
+
+    public void borrarMascota(int numCliente) {
+         controlPersist.borrarMascota(numCliente);
+    }
+
+    public Mascota buscarMascota(int numCliente) {
+        return controlPersist.buscarMascota(numCliente);
+    }
+
+    public void borrarDueno(int duenoId) {
+        controlPersist.borrarDueno(duenoId);
     }
 
 }

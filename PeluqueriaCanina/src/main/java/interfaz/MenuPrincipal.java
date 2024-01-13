@@ -28,22 +28,20 @@ public class MenuPrincipal extends javax.swing.JFrame {
 
         bg = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         btnSalir = new javax.swing.JButton();
         btnCargarDatos = new javax.swing.JButton();
         btnVerDatos = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -53,42 +51,34 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(90, 169, 230));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/peluqueria-canina-resize.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, -1, -1));
-
-        jLabel5.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("PAWTITAS");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 240, -1, -1));
-
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-varios.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-20, 480, -1, -1));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
 
-        jLabel6.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Arvo", 1, 32)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("CANINA");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, -1, -1));
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("@oscaralfrm");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 30, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Arvo", 1, 32)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("PERRUQUERÍA");
-        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, -1, -1));
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/doggo1.png"))); // NOI18N
-        jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, -1, -1));
-
-        jLabel10.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Arvo", 1, 32)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("TU");
-        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, -1, -1));
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/github-mini.png"))); // NOI18N
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, -1));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pelado-cool-r.png"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
 
         bg.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 0, 320, 650));
 
@@ -100,7 +90,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/petting.png"))); // NOI18N
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 290, -1, -1));
+        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 540, -1));
 
         btnSalir.setBackground(new java.awt.Color(127, 200, 248));
         btnSalir.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
@@ -138,8 +128,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
         jPanel2.add(btnVerDatos, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 170, 350, -1));
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/dog-kennel-silhouette-clipart (1).png"))); // NOI18N
-        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, -1, -1));
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-ancho.png"))); // NOI18N
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
 
         bg.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 650));
 
@@ -171,7 +161,11 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnCargarDatosActionPerformed
 
     private void btnVerDatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerDatosActionPerformed
-        // TODO add your handling code here:
+        
+        VerDatos verDatosPantalla = new VerDatos();
+        verDatosPantalla.setVisible(true);
+        verDatosPantalla.setLocationRelativeTo(null);
+        
     }//GEN-LAST:event_btnVerDatosActionPerformed
 
   
@@ -183,12 +177,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton btnVerDatos;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;

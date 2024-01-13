@@ -91,5 +91,21 @@ public class ControladorPersistencia {
         mascotaJpa.create(mascota);
         
     }
+
+    public ArrayList<Mascota> traerMascotas() {
+        return encontrarTodasMascotas();
+    }
+
+    public void borrarMascota(int numCliente) {
+         eliminarMascota(numCliente);
+    }
+
+    public Mascota buscarMascota(int numCliente) {
+        return encontrarMascota(numCliente);
+    }
+
+    public void borrarDueno(int duenoId) {
+        eliminarDueno(duenoId);
+    }
     
 }

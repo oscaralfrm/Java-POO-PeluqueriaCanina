@@ -12,8 +12,12 @@ import logica.Controlador;
  * @author Oscar
  */
 public class CargaDatos extends javax.swing.JFrame {
-
-
+   
+    private void actualizarCarga(boolean carga) {
+        VerDatos datos = new VerDatos();
+        datos.detectarCarga(carga);
+    }
+    
     /**
      * Creates new form Interfaz
      */
@@ -78,12 +82,12 @@ public class CargaDatos extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 99, 146));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/peluqueria-canina-resize.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pelu1.png"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 20, -1, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-varios.png"))); // NOI18N
         jLabel2.setText("jLabel2");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, -10, -1, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, -10, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -93,7 +97,7 @@ public class CargaDatos extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("CARGA DE DATOS");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 170, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 150, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Arvo", 1, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
@@ -173,7 +177,7 @@ public class CargaDatos extends javax.swing.JFrame {
         txtObservaciones.setRows(5);
         jScrollPane1.setViewportView(txtObservaciones);
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pelu-label.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/huesito.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -213,11 +217,15 @@ public class CargaDatos extends javax.swing.JFrame {
                                         .addComponent(jLabel9)
                                         .addGap(18, 18, 18)
                                         .addComponent(cmbAtencionEspecial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, Short.MAX_VALUE)
-                                .addComponent(jLabel18)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel19)
-                                .addGap(56, 56, 56)))))
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
+                                        .addComponent(jLabel18)
+                                        .addGap(112, 112, 112))
+                                    .addGroup(jPanel2Layout.createSequentialGroup()
+                                        .addGap(59, 59, 59)
+                                        .addComponent(jLabel19)
+                                        .addGap(0, 0, Short.MAX_VALUE)))))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -239,9 +247,9 @@ public class CargaDatos extends javax.swing.JFrame {
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel13)
                             .addComponent(txtColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(15, 15, 15)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(15, 15, 15)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel14)
                                     .addComponent(cmbAlergico, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -249,7 +257,9 @@ public class CargaDatos extends javax.swing.JFrame {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel9)
                                     .addComponent(cmbAtencionEspecial, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jLabel19)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel19))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel18)))
@@ -270,9 +280,9 @@ public class CargaDatos extends javax.swing.JFrame {
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/shampoo.png"))); // NOI18N
 
         btnLimpiar.setBackground(new java.awt.Color(90, 169, 230));
-        btnLimpiar.setFont(new java.awt.Font("Arvo", 1, 11)); // NOI18N
+        btnLimpiar.setFont(new java.awt.Font("Arvo", 1, 12)); // NOI18N
         btnLimpiar.setForeground(new java.awt.Color(255, 255, 255));
-        btnLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/limpiar-boton.png"))); // NOI18N
+        btnLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/lavado-30.png"))); // NOI18N
         btnLimpiar.setText("LIMPIAR");
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -281,9 +291,9 @@ public class CargaDatos extends javax.swing.JFrame {
         });
 
         btnGuardar.setBackground(new java.awt.Color(255, 99, 146));
-        btnGuardar.setFont(new java.awt.Font("Arvo", 1, 11)); // NOI18N
+        btnGuardar.setFont(new java.awt.Font("Arvo", 1, 12)); // NOI18N
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/huesito.png"))); // NOI18N
+        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/btnGuardar.png"))); // NOI18N
         btnGuardar.setText("GUARDAR");
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -330,10 +340,10 @@ public class CargaDatos extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(btnLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnGuardar, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(txtNombreDueno)
                     .addComponent(txtTelefonoDueno))
-                .addGap(34, 34, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
@@ -382,7 +392,7 @@ public class CargaDatos extends javax.swing.JFrame {
                                 .addComponent(jLabel25)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)))
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnLimpiar)
+                            .addComponent(btnLimpiar, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnGuardar))))
                 .addGap(47, 47, 47))
         );
@@ -423,6 +433,8 @@ public class CargaDatos extends javax.swing.JFrame {
 
     private void btnGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGuardarActionPerformed
         
+        boolean carga = false;
+        
          // Creamos el controlador para poder manejar las peticiones
     
         Controlador controlador = new Controlador();
@@ -447,9 +459,13 @@ public class CargaDatos extends javax.swing.JFrame {
         
         controlador.guardar(nombreMascota, razaMascota, colorMascota, 
                 esAlergicoMascota, esAtencionEspecialMascota, observacionesMascota, nombreDueno, telefonoDueno);
+        carga = true;
+        actualizarCarga(carga);
         
         
         JOptionPane.showMessageDialog(null, "Se ha completado el registro de sus datos exitosamente.");
+        
+        
         
         limpiarCajas();
     }//GEN-LAST:event_btnGuardarActionPerformed
