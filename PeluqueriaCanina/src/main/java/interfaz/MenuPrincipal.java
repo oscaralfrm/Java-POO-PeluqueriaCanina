@@ -4,6 +4,8 @@
  */
 package interfaz;
 
+import java.awt.event.WindowEvent;
+
 /**
  *
  * @author Oscar
@@ -148,7 +150,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
-        // TODO add your handling code here:
+       
+        this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
+
+        
     }//GEN-LAST:event_btnSalirActionPerformed
 
     private void btnCargarDatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarDatosActionPerformed

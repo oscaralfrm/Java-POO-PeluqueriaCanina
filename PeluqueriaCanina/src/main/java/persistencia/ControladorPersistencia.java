@@ -83,7 +83,7 @@ public class ControladorPersistencia {
         
     }
 
-    // Crear método guardar
+    // Crear métodos personalizados
     
     public void guardar(Dueno dueno, Mascota mascota) {
         
@@ -107,5 +107,22 @@ public class ControladorPersistencia {
     public void borrarDueno(int duenoId) {
         eliminarDueno(duenoId);
     }
+
+    public void modificarMascota(Mascota mascota) {
+        editarMascota(mascota);
+    }
+
+    public void modificarDatosMascota(Mascota mascota) {
+        editarMascota(mascota);
+    }
+
+    public Dueno buscarDueno(int idDueno) {
+        return encontrarDueno(idDueno);
+    }
+
+    public void modificarDatosDueno(Dueno dueno) {
+        editarDueno(dueno);
+    }
+
     
 }

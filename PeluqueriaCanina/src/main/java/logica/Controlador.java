@@ -99,4 +99,57 @@ public class Controlador {
         controlPersist.borrarDueno(duenoId);
     }
 
+    public void modificarMascota(Mascota mascota) {
+        controlPersist.modificarMascota(mascota);
+    }
+
+    // Acá todavía no se llama a la persistencia, a la mascota que tenemos por parámetro 
+    // hay que asignarle los nuevos valores 
+    public void modificarDatosMascota(Mascota mascota, String nombreMascota, String razaMascota, 
+            String colorMascota, String esAlergicoMascota, String esAtencionEspecialMascota, 
+            String observacionesMascota, String nombreDueno, String telefonoDueno) {
+        
+        // Todos los métodos con this. se usan para ser reusados por el controlador
+        
+        // SETTEANDO VARIABLES DE LA MASCOTA
+        
+        // Acá hacemos el setteo de los nuevos datos de la mascota - MODIFICAMOS LA MASCOTA
+        
+        mascota.setNombrePerro(nombreMascota);
+        mascota.setRaza(razaMascota);
+        mascota.setColor(colorMascota);
+        mascota.setAlergico(esAlergicoMascota);
+        mascota.setAtencionEspecial(esAtencionEspecialMascota);
+        mascota.setObservaciones(observacionesMascota);
+        
+        // El Dueño no se puede modificar, acá delegamos a la PERSISTENCIA
+        
+        controlPersist.modificarDatosMascota(mascota);
+        
+        // SETTEANDO VARIABLES DEL DUEÑO
+        
+        // Identificamos al Dueño
+        
+        Dueno dueno = this.buscarDueno(mascota.getDueno().getIdDueno());
+        
+        // Setteamos al dueño con sus valores nuevos
+        
+        dueno.setNombre(nombreDueno);
+        dueno.setCelular(telefonoDueno);
+        
+        // Llamamos al modificador del dueño
+        
+        this.modificarDatosDueno(dueno);
+        
+    }
+
+    private Dueno buscarDueno(int idDueno) {
+        return controlPersist.buscarDueno(idDueno);
+    }
+
+    private void modificarDatosDueno(Dueno dueno) {
+        controlPersist.modificarDatosDueno(dueno);
+    }
+
+
 }

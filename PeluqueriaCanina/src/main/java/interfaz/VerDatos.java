@@ -10,12 +10,6 @@ import logica.Mascota;
 public class VerDatos extends javax.swing.JFrame {
     
    Controlador control = null;
-    
-   public void detectarCarga(boolean carga) {
-        if (carga) {
-            cargarTabla();
-        }
-    }
    
     public VerDatos() {
         initComponents();
@@ -38,6 +32,7 @@ public class VerDatos extends javax.swing.JFrame {
         btnEditar = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
+        btnActualizar = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -102,35 +97,50 @@ public class VerDatos extends javax.swing.JFrame {
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/perrera_1.png"))); // NOI18N
 
+        btnActualizar.setBackground(new java.awt.Color(127, 200, 248));
+        btnActualizar.setFont(new java.awt.Font("Arvo", 1, 14)); // NOI18N
+        btnActualizar.setForeground(new java.awt.Color(255, 255, 255));
+        btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet (1).png"))); // NOI18N
+        btnActualizar.setText("CARGAR");
+        btnActualizar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnActualizarActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(19, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 664, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnEliminar, javax.swing.GroupLayout.DEFAULT_SIZE, 162, Short.MAX_VALUE)
-                            .addComponent(btnEditar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 664, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnActualizar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEditar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnEliminar, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(37, 37, 37)
+                                .addComponent(jLabel11))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(jLabel11)))
-                .addGap(37, 37, 37))
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(118, 118, 118)
-                .addComponent(jLabel8)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(118, 118, 118)
+                        .addComponent(jLabel8)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnEliminar)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnEditar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnActualizar)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel11)
                 .addContainerGap())
@@ -139,7 +149,7 @@ public class VerDatos extends javax.swing.JFrame {
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         bg.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 900, 430));
@@ -203,7 +213,9 @@ public class VerDatos extends javax.swing.JFrame {
         
        control = new Controlador();
        
+       // Que la tabla no esté vacía
        if (tblMascotas.getRowCount() > 0) {
+           // Que se haya seleccionado un registro
            if (tblMascotas.getSelectedRow() != -1) {
                // Recordar que las eliminaciones se realizan por ID (un int)
                // La columna 0, es la columna de los IDs/Números de Mascotas
@@ -229,7 +241,8 @@ public class VerDatos extends javax.swing.JFrame {
                 
                 JOptionPane.showMessageDialog(null, "Mascota borrada: " + mascotaEncontrada.toString());
                 
-                // Borramos a la mascota
+                // Borramos a la mascota            
+                
                 control.borrarMascota(numCliente);   
                 
                 // Borramos al dueño, porque es una relación 1 a 1
@@ -257,6 +270,34 @@ public class VerDatos extends javax.swing.JFrame {
 
         // Creamos el controlador para poder manejar las peticiones
 
+        control = new Controlador();
+       
+       // Que la tabla no esté vacía
+       if (tblMascotas.getRowCount() > 0) {
+           // Que se haya seleccionado un registro
+           if (tblMascotas.getSelectedRow() != -1) {
+               // Recordar que las eliminaciones se realizan por ID (un int)
+               // La columna 0, es la columna de los IDs/Números de Mascotas
+               int numCliente = Integer.parseInt(String.valueOf(tblMascotas.getValueAt(tblMascotas.getSelectedRow(), 0)));
+               
+               // Delegamos la responsabilidad de edición a la pantalla de EditarDatos
+               
+
+               EditarDatos editarDatos = new EditarDatos(numCliente);
+               editarDatos.setVisible(true);
+               editarDatos.setLocationRelativeTo(null);
+               
+               
+                
+           } else{ 
+           JOptionPane.showMessageDialog(null, 
+                   "No se seleccionó ninguna mascota", 
+                   "Error", JOptionPane.ERROR_MESSAGE);
+            }
+           
+       }
+
+        
     
     }//GEN-LAST:event_btnEditarActionPerformed
 
@@ -269,10 +310,17 @@ public class VerDatos extends javax.swing.JFrame {
         
     }//GEN-LAST:event_formWindowOpened
 
+    private void btnActualizarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnActualizarActionPerformed
+        
+        cargarTabla();
+        
+    }//GEN-LAST:event_btnActualizarActionPerformed
+
  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
+    private javax.swing.JButton btnActualizar;
     private javax.swing.JButton btnEditar;
     private javax.swing.JButton btnEliminar;
     private javax.swing.JLabel jLabel1;
@@ -291,7 +339,7 @@ public class VerDatos extends javax.swing.JFrame {
     private javax.swing.JTable tblMascotas;
     // End of variables declaration//GEN-END:variables
 
-    private void cargarTabla() {
+    public void cargarTabla() {
 
         control = new Controlador();
         
