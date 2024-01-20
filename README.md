@@ -44,6 +44,15 @@ la lógica y permitir su persistencia a lo largo del tiempo.
 
 <br></br>
 
+![Header](./readmeImages/🦮Imagenes_del_Proyecto🐕_🦺.png)
+
+![DOG](./readmeImages/app1.jpg)
+![DOG](./readmeImages/app2.jpg)
+![DOG](./readmeImages/app3.jpg)
+![DOG](./readmeImages/app4.jpg)
+
+<br></br>
+
 ![Header](./readmeImages/github-header-image.png)
 
 </section>
