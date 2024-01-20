@@ -9,6 +9,7 @@ public class Principal {
         MenuPrincipal pantalla = new MenuPrincipal();
         pantalla.setVisible(true);
         pantalla.setLocationRelativeTo(null);
+        pantalla.setResizable(false);
         
     }
 }

@@ -99,6 +99,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnSalir.setForeground(new java.awt.Color(255, 255, 255));
         btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet-food.png"))); // NOI18N
         btnSalir.setText("SALIR");
+        btnSalir.setDefaultCapable(false);
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSalirActionPerformed(evt);
@@ -111,6 +112,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnCargarDatos.setForeground(new java.awt.Color(255, 255, 255));
         btnCargarDatos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/vet-app (3).png"))); // NOI18N
         btnCargarDatos.setText("CARGAR DATOS");
+        btnCargarDatos.setDefaultCapable(false);
         btnCargarDatos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCargarDatosActionPerformed(evt);
@@ -123,6 +125,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnVerDatos.setForeground(new java.awt.Color(255, 255, 255));
         btnVerDatos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet (1).png"))); // NOI18N
         btnVerDatos.setText("VER DATOS");
+        btnVerDatos.setDefaultCapable(false);
         btnVerDatos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVerDatosActionPerformed(evt);
@@ -162,6 +165,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         CargaDatos cargarDatosPantalla = new CargaDatos();
         cargarDatosPantalla.setVisible(true);
         cargarDatosPantalla.setLocationRelativeTo(null);
+        cargarDatosPantalla.setResizable(false);
+        cargarDatosPantalla.setDefaultCloseOperation(HIDE_ON_CLOSE);
         
     }//GEN-LAST:event_btnCargarDatosActionPerformed
 
@@ -170,6 +175,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         VerDatos verDatosPantalla = new VerDatos();
         verDatosPantalla.setVisible(true);
         verDatosPantalla.setLocationRelativeTo(null);
+        verDatosPantalla.setResizable(false);
+        verDatosPantalla.setDefaultCloseOperation(HIDE_ON_CLOSE);
         
     }//GEN-LAST:event_btnVerDatosActionPerformed
 

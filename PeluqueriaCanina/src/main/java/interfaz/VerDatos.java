@@ -75,6 +75,7 @@ public class VerDatos extends javax.swing.JFrame {
         btnEliminar.setForeground(new java.awt.Color(255, 255, 255));
         btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet-patient.png"))); // NOI18N
         btnEliminar.setText("ELIMINAR");
+        btnEliminar.setDefaultCapable(false);
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarActionPerformed(evt);
@@ -86,6 +87,7 @@ public class VerDatos extends javax.swing.JFrame {
         btnEditar.setForeground(new java.awt.Color(255, 255, 255));
         btnEditar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/medical-report.png"))); // NOI18N
         btnEditar.setText("EDITAR");
+        btnEditar.setDefaultCapable(false);
         btnEditar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEditarActionPerformed(evt);
@@ -102,6 +104,7 @@ public class VerDatos extends javax.swing.JFrame {
         btnActualizar.setForeground(new java.awt.Color(255, 255, 255));
         btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet (1).png"))); // NOI18N
         btnActualizar.setText("CARGAR");
+        btnActualizar.setDefaultCapable(false);
         btnActualizar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnActualizarActionPerformed(evt);
@@ -286,6 +289,8 @@ public class VerDatos extends javax.swing.JFrame {
                EditarDatos editarDatos = new EditarDatos(numCliente);
                editarDatos.setVisible(true);
                editarDatos.setLocationRelativeTo(null);
+               editarDatos.setResizable(false);
+               editarDatos.setDefaultCloseOperation(HIDE_ON_CLOSE);
                
                
                 

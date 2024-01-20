@@ -588,6 +588,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/lavado-30.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="LIMPIAR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimpiarActionPerformed"/>
@@ -608,6 +609,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/btnGuardar.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="GUARDAR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>

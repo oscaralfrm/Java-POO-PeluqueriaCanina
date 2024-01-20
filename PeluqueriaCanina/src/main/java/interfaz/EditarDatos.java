@@ -274,6 +274,7 @@ public class EditarDatos extends javax.swing.JFrame {
         btnLimpiar.setForeground(new java.awt.Color(255, 255, 255));
         btnLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/lavado-30.png"))); // NOI18N
         btnLimpiar.setText("LIMPIAR");
+        btnLimpiar.setDefaultCapable(false);
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLimpiarActionPerformed(evt);
@@ -285,6 +286,7 @@ public class EditarDatos extends javax.swing.JFrame {
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
         btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/btnGuardar.png"))); // NOI18N
         btnGuardar.setText("CAMBIAR");
+        btnGuardar.setDefaultCapable(false);
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGuardarActionPerformed(evt);

@@ -160,6 +160,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/pet-patient.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ELIMINAR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
@@ -180,6 +181,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/medical-report.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="EDITAR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEditarActionPerformed"/>
@@ -215,6 +217,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/pet (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CARGAR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnActualizarActionPerformed"/>

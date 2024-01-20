@@ -218,6 +218,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/pet-food.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="SALIR"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalirActionPerformed"/>
@@ -243,6 +244,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/vet-app (3).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CARGAR DATOS"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCargarDatosActionPerformed"/>
@@ -268,6 +270,7 @@
                   <Image iconType="3" name="/interfaz/imagenes/pet (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="VER DATOS"/>
+                <Property name="defaultCapable" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVerDatosActionPerformed"/>
