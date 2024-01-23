@@ -73,7 +73,7 @@ public class VerDatos extends javax.swing.JFrame {
         btnEliminar.setBackground(new java.awt.Color(255, 99, 146));
         btnEliminar.setFont(new java.awt.Font("Arvo", 1, 14)); // NOI18N
         btnEliminar.setForeground(new java.awt.Color(255, 255, 255));
-        btnEliminar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet-patient.png"))); // NOI18N
+        btnEliminar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\pet-patient.png")); // NOI18N
         btnEliminar.setText("ELIMINAR");
         btnEliminar.setDefaultCapable(false);
         btnEliminar.addActionListener(new java.awt.event.ActionListener() {
@@ -97,12 +97,12 @@ public class VerDatos extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
         jLabel8.setText("DATOS DE LAS MASCOTAS");
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/perrera_1.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\perrera_1.png")); // NOI18N
 
         btnActualizar.setBackground(new java.awt.Color(127, 200, 248));
         btnActualizar.setFont(new java.awt.Font("Arvo", 1, 14)); // NOI18N
         btnActualizar.setForeground(new java.awt.Color(255, 255, 255));
-        btnActualizar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet (1).png"))); // NOI18N
+        btnActualizar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\pet (1).png")); // NOI18N
         btnActualizar.setText("CARGAR");
         btnActualizar.setDefaultCapable(false);
         btnActualizar.addActionListener(new java.awt.event.ActionListener() {
@@ -160,10 +160,10 @@ public class VerDatos extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(255, 99, 146));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/dog-k_1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\dog-k_1.png")); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-varios.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\patitas-varios.png")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, -10, -1, -1));
 
@@ -188,10 +188,10 @@ public class VerDatos extends javax.swing.JFrame {
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Arvo", 0, 14)); // NOI18N
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-ancho.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\patitas-ancho.png")); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 20, -1, -1));
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/doggo1.png"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\doggo1.png")); // NOI18N
         jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, -1, -1));
 
         bg.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 220));

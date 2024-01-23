@@ -157,7 +157,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/pet-patient.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\pet-patient.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="ELIMINAR"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -198,7 +198,7 @@
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/perrera_1.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\perrera_1.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -214,7 +214,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/pet (1).png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\pet (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CARGAR"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -244,7 +244,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/dog-k_1.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\dog-k_1.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -256,7 +256,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/patitas-varios.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\patitas-varios.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel2"/>
               </Properties>
@@ -336,7 +336,7 @@
                   <Font name="Arvo" size="14" style="0"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/patitas-ancho.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\patitas-ancho.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -348,7 +348,7 @@
             <Component class="javax.swing.JLabel" name="jLabel23">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/doggo1.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\doggo1.png"/>
                 </Property>
               </Properties>
               <Constraints>

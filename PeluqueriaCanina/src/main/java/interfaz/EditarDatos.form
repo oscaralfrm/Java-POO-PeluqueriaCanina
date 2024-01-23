@@ -78,7 +78,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/patitas-varios.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\patitas-varios.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="jLabel2"/>
               </Properties>
@@ -170,7 +170,7 @@
             <Component class="javax.swing.JLabel" name="jLabel23">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/doggo1.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\doggo1.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -592,7 +592,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/lavado-30.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\lavado-30.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="LIMPIAR"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -613,7 +613,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/btnGuardar.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\btnGuardar.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CAMBIAR"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>

@@ -53,7 +53,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(90, 169, 230));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-varios.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\patitas-varios.png")); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 400, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Arvo", 1, 32)); // NOI18N
@@ -76,10 +76,10 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jLabel10.setText("TU");
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/github-mini.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\github-mini.png")); // NOI18N
         jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pelado-cool-r.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\pelado-cool-r.png")); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, -1, -1));
 
         bg.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 0, 320, 650));
@@ -91,13 +91,13 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jLabel8.setText("MENÚ DE OPCIONES");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/petting.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\petting.png")); // NOI18N
         jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 290, 540, -1));
 
         btnSalir.setBackground(new java.awt.Color(127, 200, 248));
         btnSalir.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
         btnSalir.setForeground(new java.awt.Color(255, 255, 255));
-        btnSalir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet-food.png"))); // NOI18N
+        btnSalir.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\pet-food.png")); // NOI18N
         btnSalir.setText("SALIR");
         btnSalir.setDefaultCapable(false);
         btnSalir.addActionListener(new java.awt.event.ActionListener() {
@@ -110,7 +110,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnCargarDatos.setBackground(new java.awt.Color(255, 99, 146));
         btnCargarDatos.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
         btnCargarDatos.setForeground(new java.awt.Color(255, 255, 255));
-        btnCargarDatos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/vet-app (3).png"))); // NOI18N
+        btnCargarDatos.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\vet-app (3).png")); // NOI18N
         btnCargarDatos.setText("CARGAR DATOS");
         btnCargarDatos.setDefaultCapable(false);
         btnCargarDatos.addActionListener(new java.awt.event.ActionListener() {
@@ -123,7 +123,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         btnVerDatos.setBackground(new java.awt.Color(90, 169, 230));
         btnVerDatos.setFont(new java.awt.Font("Arvo", 1, 36)); // NOI18N
         btnVerDatos.setForeground(new java.awt.Color(255, 255, 255));
-        btnVerDatos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pet (1).png"))); // NOI18N
+        btnVerDatos.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\pet (1).png")); // NOI18N
         btnVerDatos.setText("VER DATOS");
         btnVerDatos.setDefaultCapable(false);
         btnVerDatos.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +133,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         });
         jPanel2.add(btnVerDatos, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 170, 350, -1));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-ancho.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\patitas-ancho.png")); // NOI18N
         jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 440, -1, -1));
 
         bg.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 650));

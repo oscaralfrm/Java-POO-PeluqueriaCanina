@@ -75,7 +75,7 @@ public class EditarDatos extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/pelu2.png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, -1, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-varios.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\patitas-varios.png")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, -10, -1, -1));
 
@@ -103,7 +103,7 @@ public class EditarDatos extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/patitas-ancho.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 20, -1, -1));
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/doggo1.png"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\doggo1.png")); // NOI18N
         jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, -1, -1));
 
         bg.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 900, 220));
@@ -272,7 +272,7 @@ public class EditarDatos extends javax.swing.JFrame {
         btnLimpiar.setBackground(new java.awt.Color(90, 169, 230));
         btnLimpiar.setFont(new java.awt.Font("Arvo", 1, 12)); // NOI18N
         btnLimpiar.setForeground(new java.awt.Color(255, 255, 255));
-        btnLimpiar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/lavado-30.png"))); // NOI18N
+        btnLimpiar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\lavado-30.png")); // NOI18N
         btnLimpiar.setText("LIMPIAR");
         btnLimpiar.setDefaultCapable(false);
         btnLimpiar.addActionListener(new java.awt.event.ActionListener() {
@@ -284,7 +284,7 @@ public class EditarDatos extends javax.swing.JFrame {
         btnGuardar.setBackground(new java.awt.Color(255, 99, 146));
         btnGuardar.setFont(new java.awt.Font("Arvo", 1, 12)); // NOI18N
         btnGuardar.setForeground(new java.awt.Color(255, 255, 255));
-        btnGuardar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/interfaz/imagenes/btnGuardar.png"))); // NOI18N
+        btnGuardar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Oscar\\Desktop\\RepoPeluqueriaCanina\\Java-POO-PeluqueriaCanina\\PeluqueriaCanina\\src\\main\\resources\\imagenes\\btnGuardar.png")); // NOI18N
         btnGuardar.setText("CAMBIAR");
         btnGuardar.setDefaultCapable(false);
         btnGuardar.addActionListener(new java.awt.event.ActionListener() {

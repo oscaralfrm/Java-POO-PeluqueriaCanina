@@ -63,7 +63,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/patitas-varios.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\patitas-varios.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -139,7 +139,7 @@
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/github-mini.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\github-mini.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -151,7 +151,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/pelado-cool-r.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\pelado-cool-r.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -194,7 +194,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/petting.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\petting.png"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -215,7 +215,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/pet-food.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\pet-food.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="SALIR"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -241,7 +241,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/vet-app (3).png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\vet-app (3).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="CARGAR DATOS"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -267,7 +267,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/pet (1).png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\pet (1).png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="VER DATOS"/>
                 <Property name="defaultCapable" type="boolean" value="false"/>
@@ -284,7 +284,7 @@
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/interfaz/imagenes/patitas-ancho.png"/>
+                  <Image iconType="2" name="C:\Users\Oscar\Desktop\RepoPeluqueriaCanina\Java-POO-PeluqueriaCanina\PeluqueriaCanina\src\main\resources\imagenes\patitas-ancho.png"/>
                 </Property>
               </Properties>
               <Constraints>
